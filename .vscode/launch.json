@@ -9,6 +9,16 @@
             "projectName": "api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WebappApplication<webapp>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "dev.lmlouis.webapp.WebappApplication",
+            "projectName": "webapp",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

@@ -1,12 +1,16 @@
 package dev.lmlouis.webapp.model;
 
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@AllArgsConstructor
+@NoArgsConstructor
 @Data
 public class Employee {
 
-    private Integer id;
+    private Long id;
 
     private String firstName;
 

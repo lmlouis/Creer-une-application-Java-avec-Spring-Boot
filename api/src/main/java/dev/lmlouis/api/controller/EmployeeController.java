@@ -20,7 +20,7 @@ public class EmployeeController {
     private EmployeeService employeeService;
 
     /**
-    * methode GET (HTTP) sur l'url ..."/employees" - Affiche la liste des employers
+    * methode GET (HTTP) sur l'url ..."/employees" - Visualiser les employés.
     * @return - Un Iterable objet des Employee full fille
     */
     @GetMapping("/employees")
@@ -29,7 +29,7 @@ public class EmployeeController {
     }
 
     /**
-     * methode GET (HTTP) sur l'url ..."/employees/{id}" - Afficher un employee
+     * methode GET (HTTP) sur l'url ..."/employees/{id}" - Visualiser un employé.
      * @param id
      * @return - Un Optionel Oject employee
      */
@@ -39,7 +39,7 @@ public class EmployeeController {
     }
 
     /**
-     * methode POST (HTTP) sur l'url ..."/employees" - crée un employee 
+     * methode POST (HTTP) sur l'url ..."/employees" - Ajouter un nouvel employé.
      * @param employee
      * @return - Un Ojet employee crée
      */
@@ -49,7 +49,7 @@ public class EmployeeController {
     }
 
     /**
-     * methode PUT (HTTP) sur l'url ..."/employees/{id}" - Met à jour un employee 
+     * methode PUT (HTTP) sur l'url ..."/employees/{id}" - Modifier un employé.
      * @param employee
      * @param id
      * @return - Object employee modifié 
@@ -75,7 +75,7 @@ public class EmployeeController {
 
     
     /**
-     * methode DELETE (HTTP) sur l'url ..."/employees/{id}" - Supprime un employee 
+     * methode DELETE (HTTP) sur l'url ..."/employees/{id}" - Supprimer un employé.
      * @param id
      */
     @DeleteMapping("/employees/{id}")
